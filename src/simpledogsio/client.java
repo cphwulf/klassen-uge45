@@ -2,6 +2,8 @@ package simpledogsio;
 import java.io.File;
 import java.io.FileReader;
 import java.io.BufferedReader;
+import java.io.FileWriter;
+import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
@@ -18,6 +20,9 @@ public class client {
 	static class DogHandler {
 		public static void readDogFromFile(String filename) throws FileNotFoundException {
 			// 20990,Red,Dobermann,AMY,Desexed Female,WATERLOO CORNER
+		}
+		public static void DogToHml(String dogString, String dest) throws FileNotFoundException {
+
 		}
 	}
 }
