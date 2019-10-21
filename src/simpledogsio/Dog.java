@@ -10,5 +10,32 @@ package simpledogsio;
  * @author thor
  */
 public class Dog {
+//20990,Red,Dobermann,AMY,Desexed Female,WATERLOO CORNER
+	String name;
+	String gender;
+	String color;
+	String race;
+	String cityOrigin;
+
+	public Dog(String name, String gender, String color, String race, String cityOrigin) {
+		this.name = name;
+		this.gender = gender;
+		this.color = color;
+		this.race = race;
+		this.cityOrigin = cityOrigin;
+	}
+
+	@Override
+	public String toString() {
+		String msg = "";
+		msg += "NAME: " + this.name;
+		msg += "RACE: " + this.race;
+		msg += "GENDER: " + this.gender;
+		msg += "COLOR: " + this.color;
+		msg += "TOWN: " + this.cityOrigin;
+		System.out.println(msg);
+
+		return msg;
+	}
 	
 }

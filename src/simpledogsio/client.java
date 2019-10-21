@@ -13,17 +13,9 @@ import java.util.Scanner;
  */
 public class client {
 	public static void main(String[] args) throws FileNotFoundException {
-		String filename = "Data/test.csv";
-		DogHandler.readDogFromFile(filename);
+		String filename = "Data/test2.csv";
+		ImportDogsFromFile.importDogsFromCSV(filename);
 	}
 	
-	static class DogHandler {
-		public static void readDogFromFile(String filename) throws FileNotFoundException {
-			// 20990,Red,Dobermann,AMY,Desexed Female,WATERLOO CORNER
-		}
-		public static void DogToHml(String dogString, String dest) throws FileNotFoundException {
-
-		}
-	}
 }
 
