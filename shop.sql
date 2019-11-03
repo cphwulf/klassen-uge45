@@ -10,8 +10,8 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 
-CREATE DATABASE IF NOT EXISTS `shop` /*!40100 DEFAULT CHARACTER SET utf8 */;
-USE `shop`;
+CREATE DATABASE IF NOT EXISTS `shop2` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `shop2`;
 --
 -- Database: `w3schools`
 --
@@ -153,7 +153,8 @@ INSERT INTO `customers` (`CustomerID`, `CustomerName`, `ContactName`, `Address`,
 (88, 'Wellington Importadora', 'Paula Parente', 'Rua do Mercado, 12', 'Resende', '08737-363', 'Brazil'),
 (89, 'White Clover Markets', 'Karl Jablonski', '305 - 14th Ave. S. Suite 3B', 'Seattle', '98128', 'USA'),
 (90, 'Wilman Kala', 'Matti Karttunen', 'Keskuskatu 45', 'Helsinki', '21240', 'Finland'),
-(91, 'Wolski', 'Zbyszek', 'ul. Filtrowa 68', 'Walla', '01-012', 'Poland');
+(91, 'Wolski', 'Zbyszek', 'ul. Filtrowa 68', 'Walla', '01-012', 'Poland'),
+(92, 'Thors bistro', 'Thor Wulf', 'Snurrevej 34', 'Gentofte', '2820', 'Denmark');
 
 -- --------------------------------------------------------
 
@@ -1035,7 +1036,8 @@ INSERT INTO `products` (`ProductID`, `ProductName`, `SupplierID`, `CategoryID`, 
 (74, 'Longlife Tofu', 4, 7, '5 kg pkg.', 10),
 (75, 'Rhönbräu Klosterbier', 12, 1, '24 - 0.5 l bottles', 7.75),
 (76, 'Lakkalikööri', 23, 1, '500 ml', 18),
-(77, 'Original Frankfurter grüne Soße', 12, 2, '12 boxes', 13);
+(77, 'Original Frankfurter grüne Soße', 12, 2, '12 boxes', 13),
+(78, 'Dild Sild', 21, 8, '4 - 250 g glasses', 18);
 
 -- --------------------------------------------------------
 
