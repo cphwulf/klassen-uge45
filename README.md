@@ -6,9 +6,7 @@
 - Arbejde med en konkret database: the world
 
 -Hvor mange lande er der i Europa?
-
 -Find ud af hvilken enhed surfacearea er ved at finde arealet for Danmark
-
 -Hvor mange lande har et overfladeareal større end 2.000.000
 
 -Lav en liste sorteret med de største lande først
