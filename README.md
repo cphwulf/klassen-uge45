@@ -1,6 +1,6 @@
 # Uge45: SQL, JDBC og interfaces
 ### mandag d 4/11 
-- evaluering
+- evaluering ca 10:30
 - Databaser - helikopterview
 - MySQL - få det til at virke
 - Arbejde med en konkret database: the world
