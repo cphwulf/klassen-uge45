@@ -1,0 +1,38 @@
+SELECT:
+
+Vælg alle kunder, der bor i USA
+Sorter listen faldende efter navn
+Vælg alle kunder, der bor i USA eller Spanien i samme liste. Sorter listen efter land og navn
+Lav en liste over alle kunder og sorter listen efter ContactName (stigende orden). Man skal kun se ContactName og den by de bor i.
+Find alle ordrer, som er shippet af Speedy Express
+
+INSERT INTO:
+
+Indsæt dig selv som kunde
+Indsæt din side-makker som kunde
+
+Opret en ordre for dig selv, hvor du har bestilt noget “TOFU”
+Sørg for at du får bestilt 10 stk “TOFU”
+
+Opret en ordre bestilt af din sidemakker på 5 stk “Geitost”
+Opret et nyt produkt
+
+DELETE:
+
+Fjern ‘Ernst Handel’ som kunde
+Fjern ‘Vaffeljernet’ som kunde
+
+UPDATE:
+
+Kunden ‘Alfreds Futterkiste’ er flyttet til Hamburg med postnummer ‘12210’. Opdater databasen.
+Kontaktpersonen hos kunden ‘Santé Gourmet’ hedder nu “Svante Nilson”. Opdater databasen.
+For ordren med OrdreID=10273 og ProduktID=10 skal antallet ændres fra 24 til 12.
+
+
+JOINS:
+
+Findes der produkter som ikke er blevet bestilt?
+Er der en kunde som ikke har aflagt en ordre?
+
+Vælg alle kunder, der bor i Danmark og vis deres kundenavn og de ordre ID’er de har i ordretabellen.
+

@@ -24,4 +24,10 @@ De skal fremføres i forum hvor det gælder om at svare hurtigst i grupperne.
 select name from city where id in (select capital from country where name = "Denmark");  
 og 3 lande man skal gætte ud fra hovedstæderne  
 
+### tirsdag d 5/11 
+- Gennemgang af INSERT, UPDATE og DELETE
+- Gennemgang af nøgler og constraints
+- Løsning af opgaver (shop)
+- Konstruktion af carental-database ud fra tdd-projekt (tjek tdd-branchen på denne side)
+
 
