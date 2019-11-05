@@ -37,5 +37,10 @@ public class Dog {
 
 		return msg;
 	}
+
+	public String getName() {
+		return this.name;
+
+	}
 	
 }

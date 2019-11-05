@@ -25,6 +25,14 @@ public class DogCompound {
 	public void addDog(Dog dog) {
 		compoundDogs.add(dog);
 	}
+	public Dog getDog(String name) {
+		for (Dog dog: compoundDogs ) {
+			if (dog.getName().equals(name)){
+				return dog;
+			}
+		}
+		return null;
+	}
 
 	public void showDogs() {
 		for(Dog dog : compoundDogs) {
