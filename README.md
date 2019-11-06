@@ -34,3 +34,10 @@ og 3 lande man skal gætte ud fra hovedstæderne
 - Konstruktion af hunde-databasen ud fra first-branchen
 
 
+### torsdag d 7/11 
+- Tines slide II
+- Få JDBC til at køre
+- Simpelt flow fra Netbeans til MySQL
+- Konstruktion af hunde-databasen ud fra first-branchen
+- Konstruktion af carental-database ud fra tdd-projekt (tjek tdd-branchen på denne side)
+

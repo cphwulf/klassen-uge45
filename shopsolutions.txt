@@ -1,0 +1,52 @@
+desc customers;
+show create table orders;
+show create table order_details;
+show create table products;
+select * from customers where country = "USA" order by customername asc;
+select * from customers where country in ("USA","SPAIN") order by country, customername;
+select contactname, city from customers order by contactname desc;
+select * from orders where shipperid in (select shipperid from shippers where ShipperName = "Speedy Express");
+show create table customers;
+
+insert into customers (CustomerName,ContactName,Address,City,PostalCode,Country) values
+("Thor Enterprise","Thorbjørn Wulf","Stænget 1","Gentofte","2820","DK");
+insert into orders (customerid,EmployeeID,OrderDate,ShipperID) values
+(92,2,curdate(),1);
+insert into order_details (OrderID,ProductID,Quantity) values
+(10446,14,10);
+delete from orders where customerid = 92;
+select * from customers where CustomerName like '%Alfreds%';
+select * from customers where CustomerName like '%sant%';
+start transaction;
+update customers set postalcode = '122110' where customerid = 1;
+update customers set contactname = 'Svante Nielson' where customerid = 70;
+rollback;
+select * from customers where CustomerName like '%Alfreds%';
+select * from products where productname like '%tofu%';
+select max(customerid) from customers;
+select * from customers where customerid = 92;
+select * from order_details where orderid =10273 and productid = 10;
+start transaction;
+update order_details set quantity = 12 where OrderDetailID = 66;
+rollback;
+SET SQL_SAFE_UPDATES = 0;
+SET FOREIGN_KEY_CHECKS=0;
+start transaction;
+delete from orders where orderid = 10248;
+select * from orders where orderid = 10248;
+/* JOINS */
+select * from products  p
+right join suppliers s
+on p.SupplierID = s.SupplierID order by s.SupplierID;
+select * from customers c
+left join orders o
+on c.CustomerID = o.CustomerID order by c.customerid desc;
+select * from products p
+left join order_details od 
+on p.ProductID = od.ProductID order by od.ProductID;
+select * from products p
+left join order_details od 
+on p.ProductID = od.ProductID where od.ProductID is NULL;
+select count(*) from products;
+insert into products (ProductName,SupplierID,CategoryID,unit, price) values
+("Dild Sild",21,8,"4 - 250 g glasses",18);
