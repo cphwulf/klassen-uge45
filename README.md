@@ -35,7 +35,6 @@ og 3 lande man skal gætte ud fra hovedstæderne
 
 
 ### torsdag d 7/11 
-- Tines slide II
 - Få JDBC til at køre
 - Simpelt flow fra Netbeans til MySQL
 - Konstruktion af hunde-databasen ud fra first-branchen
